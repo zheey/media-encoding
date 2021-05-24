@@ -12,6 +12,5 @@ const {
 
   module.exports = {
     getAPIInfoDAO,
-    updateOrderDAO
   };
   
