@@ -34,6 +34,6 @@ module.exports = app => {
     }
     next();
   });
-  app.use('/meida', media)
+  app.use('/media', media)
 
 };
