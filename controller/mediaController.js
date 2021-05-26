@@ -24,6 +24,7 @@ const getMediaMetadata = async (req, res) => {
             err,
             metadata
           ) {
+            fs.unlinkSync("./video.mp4");
             if (!metadata) {
               return sendErrorResponse(res, {}, "Unable to retrieve metadata");
             }
