@@ -22,7 +22,7 @@ Testing for this feature is ongoing.
 This project can only be run on a local machine for now. Kindly clone this repository.
 
 ### `Install Dependency`:
-Run `yarn` to install all dependencies.
+Run `npm` to install all dependencies.
 
 ## Library Used
 ### `NodeJS`
